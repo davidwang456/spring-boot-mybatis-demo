@@ -34,7 +34,6 @@ public class SampleMapperApplication implements CommandLineRunner {
 		this.cityMapper = cityMapper;
 	}
 
-	@Override
 	public void run(String... args) throws Exception {
 		System.out.println(this.cityMapper.findByState("CA"));
 	}
